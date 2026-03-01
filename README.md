@@ -44,6 +44,7 @@ The repository folder is structured as follows:
     - 02.2_Points-based Model
   - *03_ModelValidation/*
     - 03.1_Spatial Cross Validation
+    - 03.2_PCA
   - *04_ModelExploration/*
     - 04.1_Bias Assessment
 - **SupplementaryInformation.pdf**
