@@ -83,7 +83,7 @@ Due to computational demands, these scripts were executed iteratively via PowerS
 3. Execute the command.
 A valid ArcGIS Pro license is required.
 
-## Data
+## Data:
 The data directory is organized by modelling stage:
 - 00 – Data compilation
 - 01 – Covariate generation
