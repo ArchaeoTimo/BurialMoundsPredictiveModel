@@ -6,7 +6,7 @@ This repository contains code and data necessary to reproduce the modelling work
 *A machine-learning-based predictive model approach towards the geospatial location of burial mounds in western Switzerland*
 
 Timo Geitlinger  
-*Institute for Archaeology, Philology, and Ancient Studies, University of Zurich, Zurich, Switzerland*
+*Prehistory Division, Institute for Archaeology, Philology, and Ancient Studies, University of Zurich, Zurich, Switzerland*
 
 This paper presents a framework for a machine-learning-based predictive model approach for burial mound site locations in western Switzerland. By combining multiple machine-learning techniques with iterative Monte Carlo simulations and a diverse set of covariates approximating past human experience, the empirical basis and robustness of the model are substantially enhanced. The workflow provides a transferable framework for (predictive) modelling in other archaeological contexts.
 
