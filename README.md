@@ -43,9 +43,9 @@ The repository folder is structured as follows:
     - 02.1_Raster-based Model
     - 02.2_Points-based Model
   - *03_ModelValidation/*
-    - 03_1_Spatial Cross Validation
+    - 03.1_Spatial Cross Validation
   - *04_ModelExploration/*
-    - 04_1_Bias Assessment
+    - 04.1_Bias Assessment
 - **SupplementaryInformation.pdf**
 
 ## Scripts:
