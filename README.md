@@ -39,6 +39,7 @@ The repository folder is structured as follows:
     - 01.6_Total visibility
     - 01.7_Visibility Alps
   - *02_PredictiveModel/*
+    - 02.0_Covariates
     - 02.1_Raster-based Model
     - 02.2_Points-based Model
   - *03_ModelValidation/*
