@@ -90,6 +90,13 @@ The data directory is organized by modelling stage:
 - 02 – Predictive modelling
 - 03 – Cross validation
 - 04 – Model exploration
+### Data availability
+
+The full dataset required to reproduce this study is archived on Zenodo:
+
+DOI: XXXXX
+
+After downloading, place the extracted `data/` folder in the root of this repository.
 
 Data formats include:
 - File Geodatabase rasters
