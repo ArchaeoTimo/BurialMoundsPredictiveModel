@@ -15,40 +15,40 @@ The repository folder is structured as follows:
 
 - **README.md:** Repository overview and usage instructions.
 
-- **script/:** Python scripts for covariate preparation, predictive modelling, and model validation.
-  - 01_Covariates:* Scripts for covariate generation:
+- **script/**: Python scripts for covariate preparation, predictive modelling, and model validation.
+  - *01_Covariates/*: Scripts for covariate generation.
     - 01.1_Hydrology
     - 01.2_Skyline
     - 01.3_Accessibility
     - 01.4_Movement
-  - *02_PredictiveModel:*
-    - 02.1_Raster-basedModel
-    - 02.2_Point-basedModel
-  - *03_ModelValidation:*
-    - 03.1_SpatialCrossValidation
-- **data/:** Contains all files involved in the creation of the covariates, the multivariate analyses as well as the multivariate exploration and validation of the model. It also contains the finished covariates used to conduct the predictive model
-  - *00_Site information*:
-    - 00.1_Burialmounds: List with all sites used to conduct the analysis (no coordinates provided). 
-    - 00.2_DetectedFeatures: Results from the Automatic Detection Machine Learning Model
-  - *01_Covariate:* Data to reproduce the model results:
+  - *02_PredictiveModel/*
+    - 02.1_Raster-based Model
+    - 02.2_Point-based Model
+  - *03_ModelValidation/*
+    - 03.1_Spatial Cross Validation
+- **data/**: Data used for covariate generation, modelling, validation, and exploration.
+  - *00_Site information/*
+    - 00.1_Burial Mounds: Inventory of alls burial mounds (no coordinates provided)
+    - 00.2_Detected Features: Results from the Automatic Detection Machine Learning Model
+  - *01_Covariate/*: Data to reproduce the model results:
     - 01.1_Hydrology
     - 01.2_Skyline
-    - 01.3_Accessibility:
+    - 01.3_Accessibility
     - 01.4_Movement
-    - 01.5_CropSuitability:
-    - 01.6_TotalVisibility
-    - 01.7_VisibilityAlps
-  - *02_PredictiveModel*
-    - 02.1_Raster-basedModel
-    - 02.2_Points-basedModel
-  - *03_ModelValidation*
-    - 03_1_SpatialCrossValidation
-  - *04_ModelExploration*
-    - 04_1_BiasAssessment
+    - 01.5_Crop suitability
+    - 01.6_Total visibility
+    - 01.7_Visibility Alps
+  - *02_PredictiveModel/*
+    - 02.1_Raster-based Model
+    - 02.2_Points-based Model
+  - *03_ModelValidation/*
+    - 03_1_Spatial Cross Validation
+  - *04_ModelExploration/*
+    - 04_1_Bias Assessment
 - **SupplementaryInformation.pdf**
 
 ## Scripts:
-Each script in this repository has a brief caption explaining its function and how to implement them in arcpy. The scripts were run using arcpy from **ArcGIS pro (Version 3.6.0)** on Windows 11. Each modelling step includes:
+Each script in this repository has a brief caption explaining its function and how to implement it in arcpy. The scripts were run using arcpy from **ArcGIS pro (Version 3.6.0)** on Windows 11. Each modelling step includes:
 - A geodatabse containing required input data
 - A Python notebook or script
 - Supplementary configuration files
