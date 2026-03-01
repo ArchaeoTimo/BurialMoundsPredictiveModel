@@ -77,7 +77,7 @@ Some modelling components rely on stochastic Monte Carlo simulation. Results may
 #### 02 Predictive Model and 03 Spatial Cross Validation:
 Due to computational demands, these scripts were executed iteratively via PowerShell.
 1. Open PowerShell
-2. Adjust file paths in powershell_command.txt.
+2. Adjust file paths in powershell_command.txt and create missing folders and geodatabases if necessary.
 3. Execute the command.
 A valid ArcGIS Pro license is required.
 
