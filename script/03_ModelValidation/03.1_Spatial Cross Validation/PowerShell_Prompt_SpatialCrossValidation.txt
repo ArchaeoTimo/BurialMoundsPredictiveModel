@@ -1,9 +1,0 @@
-$propy = "C:\Program Files\ArcGIS\Pro\bin\Python\Scripts\propy.bat"
-$script = "link_to_raster-based_model\spatial_cross_validation.py"
-$gdb = "link_to_basefolder\Runs.gdb"
-$metrics = "link_to_basefolder\Metrices"
-
-for ($i = 0; $i -lt 100; $i++) {
-    Write-Host "=== RUN $i ==="
-    & $propy $script $i $gdb $metrics
-}
