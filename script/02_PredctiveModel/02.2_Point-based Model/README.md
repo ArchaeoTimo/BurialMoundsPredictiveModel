@@ -21,7 +21,7 @@ All required datasets must exist in the project geodatabase:
 - presence_points
 - mask (*modelling extent*)
 - Extent_for_absence_points (*Polygon constraining random absence generation*)
-- Raster_points (*a point file representing the locations of all raster points*)
+- Rasterpoints (*a point file representing the locations of all raster points*)
 
 In addition, all explanatory rasters must be available and correctly linked in the script:
 - Crop Suitability
