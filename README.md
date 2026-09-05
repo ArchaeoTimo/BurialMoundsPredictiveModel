@@ -22,8 +22,6 @@ The repository folder is structured as follows:
     - 01.3_Accessibility
     - 01.4_Movement
   - *02_PredictiveModel/*
-    - 02.1_Raster-based Model
-    - 02.2_Point-based Model
   - *03_ModelValidation/*
     - 03.1_Spatial Cross Validation
 - **data/**: Data used for covariate generation, modelling, validation, and exploration.
