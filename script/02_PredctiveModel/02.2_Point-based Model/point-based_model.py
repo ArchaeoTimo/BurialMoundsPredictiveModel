@@ -104,6 +104,7 @@ arcpy.management.CalculateField(
 # ------------------------------------------------------------------
 explanatory_rasters = (
     r"link_to_Crop_Suitability\Crop_Suitability #;" #<-- adjust
+    r"link_to_Accessibility\Altitude #;"
     r"link_to_Accessibility\Accessibility #;" #<-- adjust
     r"link_to_Landform_Classification\Landform_Classification true;" #<-- adjust
     r"link_to_Positive-Negative\Positive-Negative #;" #<-- adjust
@@ -118,6 +119,7 @@ explanatory_rasters = (
 )
 explanatory_rasters_matching = (
     r"link_to_Crop_Suitability\Crop_Suitability Crop_Suitability;" #<-- adjust
+    r"link_to_Accessibility\Altitude #;"
     r"link_to_Accessibility\Accessibility Accessibility;" #<-- adjust
     r"link_to_Landform_Classification\Landform_Classification Landform_Classification;" #<-- adjust
     r"link_to_Positive-Negative\Positive-Negative Positive-Negative;" #<-- adjust
