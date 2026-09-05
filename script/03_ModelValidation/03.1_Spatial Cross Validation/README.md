@@ -15,7 +15,7 @@ Each run:
 - Predicts class labels for the withheld block.
 - Computes performance metrics manually.
 
-The script *spatial_cross_validation.py* performs a single model run. Multiple runs are executed iteratively via PowerShell to obtain aggregated probability surfaces.
+The script *spatial_cross_validation.py* performs a single model run. Multiple runs are executed iteratively via PowerShell to obtain distributions of block-wise validation metrics.
 
 ## Method:
 For each block, a model is trained on all remaining blocks and evaluated on the withheld block.
@@ -59,4 +59,4 @@ In addition, all explanatory rasters must be available and correctly linked in t
 ## How to run
 All datasets that need further specification are marked with "# <-- adjust" in the python script.
 
-The script is executed from PowerShell using the *PowerShell_Prompt_pointbased_model* prompt. The location of the python script needs to be specified in the PowerShell prompt.
+The script is executed from PowerShell using the *PowerShell_Prompt_SpatialCrossValidation* prompt. The location of the python script needs to be specified in the PowerShell prompt.
